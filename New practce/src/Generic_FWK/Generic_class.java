@@ -24,7 +24,7 @@ public void Openapp() throws FileNotFoundException, IOException
 @AfterMethod
 public void closeapp()
 {
-	System.out.println("test exec completed");
+	System.out.println("test exec completed1");
 	driver.close();
 }
 
